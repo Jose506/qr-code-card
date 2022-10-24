@@ -21,7 +21,7 @@ body {
     box-sizing: inherit;
 }
 
-.qr-card {
+.qr-container {
     position: absolute;
     top: calc(50% - 250px);
     left: calc(50% - 160px);
