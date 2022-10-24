@@ -1,0 +1,59 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root {
+    --font: 'Outfit', sans-serif;
+    --white: hsl(0, 0%, 100%);
+    --LightGray: hsl(212, 45%, 89%);
+    --grayishBlue: hsl(220, 15%, 55%);
+    --darkBlue: hsl(218, 44%, 22%);
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    background: var(--LightGray);
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.qr-card {
+    position: absolute;
+    top: calc(50% - 250px);
+    left: calc(50% - 160px);
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    max-width: 320px;
+    height: 500px;
+    background-color: var(--white);
+    border-radius: 16px;
+}
+
+.qr-card img  {
+    max-width: 100%;
+    border-radius: .5rem;
+}
+
+.qr-code-desc{
+    margin: 1rem;
+}
+
+.qr-code-desc h3{
+    color: var(--darkBlue);
+    font-weight: 700;
+    font-family: var(--font);
+    font-size: 1.3rem;
+}
+
+.qr-code-desc p{
+    color: var(--grayishBlue);
+}
+
+visual code 
